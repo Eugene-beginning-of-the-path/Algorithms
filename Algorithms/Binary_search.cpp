@@ -1,14 +1,6 @@
 #include <iostream>
 
-void showArr1(int arr[], const int size)
-{
-	for (int i = 0; i < size; i++)
-	{
-		std::cout << arr[i] << "\t";
-	}
-	std::cout << std::endl;
-}
-
+//Big O = (log N)
 int binary_search(int arr[], const int size, int key)
 {
 	int left = 0, right = size;
@@ -29,6 +21,15 @@ int binary_search(int arr[], const int size, int key)
 			else
 				return middle;
 	}
+}
+
+static void showArr(int arr[], const int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		std::cout << arr[i] << "\t";
+	}
+	std::cout << std::endl;
 }
 
 void start_binary_search()
