@@ -142,8 +142,10 @@
     <ClCompile Include="Algorithms.cpp" />
     <ClCompile Include="Binary_search.cpp" />
     <ClCompile Include="Bubble_sort_arrayOfObject.cpp" />
+    <ClCompile Include="Flipping_line.cpp" />
     <ClCompile Include="Insert_sort_array.cpp" />
     <ClCompile Include="Linear_search.cpp" />
+    <ClCompile Include="Parsing_Line.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
